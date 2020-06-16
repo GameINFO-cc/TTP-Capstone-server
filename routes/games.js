@@ -1,11 +1,11 @@
 var express = require("express");
 var router = express.Router();
-const { Player } = require("../database/models");
+
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
-  Player.findAll()
-    .then((players) => res.json(players))
+  GamesEntry.findAll()
+    .then((foods) => res.json(games))
     .catch((err) => console.log(err));
 });
 
