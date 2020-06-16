@@ -15,7 +15,7 @@ const seedDatabase = async () => {
     Player.create({
       firstName: "Luka",
       lastName: "Doncic",
-      jerseyNumber: 77,
+      jerseyNumber: 74,
     }),
   ]);
 };
