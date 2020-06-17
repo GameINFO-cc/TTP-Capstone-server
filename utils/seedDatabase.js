@@ -12,7 +12,7 @@ const seedDatabase = async () => {
 				name: "Jordan Micheal",
 				email: "jordan@gmail.com",
 				password: "12345"
-			})
+      }),
 		]);
 	} catch (err) {
 		console.log(err);
