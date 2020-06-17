@@ -23,7 +23,6 @@ const seedDatabase = async () => {
 					title: "second title",
 					threadId: 1,
 					userId: 2,
-					userName: "Yeri Lin"
 				}
 			],
 			userId: 2
