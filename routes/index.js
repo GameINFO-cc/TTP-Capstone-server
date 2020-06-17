@@ -3,12 +3,14 @@ var router = express.Router();
 
 // Subrouters;
 const userRouter = require("./users");
+const favoritesRouter = require("./favorites");
 const authRouter = require("./auth");
 
 
 // Mount our subrouters to assemble our apiRouter;
 
 router.use("/users", userRouter);
+router.use("/favorites", favoritesRouter);
 router.use("/auth", authRouter);
 
 // Error handling middleware;
