@@ -19,15 +19,39 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "helmet": "^3.23.1",
+    "history": "^5.0.0",
     "http-errors": "~1.6.3",
-    "morgan": "^1.9.1",
+    "morgan": "^1.10.0",
     "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
     "path": "^0.12.7",
     "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
     "pgtools": "^0.3.0",
-    "sequelize": "^5.21.13"
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^5.21.13",
+    "socketio": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "chai": "^4.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.2.0",
+    "eslint-config-fullstack": "^6.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-react": "^7.20.0",
+    "git-url-parse": "^11.1.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
   }
 }
