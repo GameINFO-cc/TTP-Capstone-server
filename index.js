@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'test') {
  * keys as environment variables, so that they can still be read by the
  * Node process on process.env
  */
-if (process.env.NODE_ENV !== 'production') require('../secrets')
+if (process.env.NODE_ENV !== 'production') require('./secrets')
 
 // passport registration
 passport.serializeUser((user, done) => done(null, user.id))
@@ -54,7 +54,7 @@ const createApp = () => {
   // session middleware with passport
   app.use(
     session({
-      secret: process.env.SESSION_SECRET || 'my best friend is Cody',
+      secret: 'my best friend is Cody',
       store: sessionStore,
       resave: false,
       saveUninitialized: false
